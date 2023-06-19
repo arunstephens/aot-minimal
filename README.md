@@ -8,8 +8,8 @@ Read the accompanying newsletter article:
 
 There are three branches in this repo:
 
-- The `jit` branch contains the app that requires the .NET runtime.
+- The [`jit`](https://github.com/arunstephens/aot-minimal/tree/jit) branch contains the app that requires the .NET runtime.
 
-- The `aot-broken` branch contains the same app configured using AOT. It starts, but can't serve traffic. (Read more about why in the article.)
+- The [`aot-broken`](https://github.com/arunstephens/aot-minimal/tree/aot-broken) branch contains the same app configured using AOT. It starts, but can't serve traffic. (Read more about why in the article.)
 
-- The `aot` branch is the same app with only one simple endpoint, which will run.
+- The [`aot`](https://github.com/arunstephens/aot-minimal/tree/aot) branch is the same app with only one simple endpoint, which will run.
